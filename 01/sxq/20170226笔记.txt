@@ -1,0 +1,92 @@
+走时开启QQ限制
+
+1、python 四则运算
++ - * /  （+ 可以将多个字符串连接起来）
+** 幂乘
+// 幂除
+% 取余
++=
+-=
+*=
+/=
+
+2、变量命名
+大小写，数字，下划线
+不能用数字开头
+错误：SyntaxError: invalid syntax
+
+值错误
+ValueError: invalid literal for int() with base 10: 'afagg'
+类型错误
+TypeError
+变量未定义
+NameError
+语法错误
+SyntaxError
+
+3、支持中文
+#coding: utf-8
+#encoding=utf-8
+
+4、字符串格式化
+%s
+%d %5d
+%f %.2f 保留小数点
+
+.format
+print '{a}xxx{b}'.format(a,b)
+
+5、raw_input input 函数
+raw_input 将用户输入转换成字符
+input 必须跟python 可识别的表达式 (python3.x 只有input)
+
+6、python 数据结构
+int
+float
+str
+bool
+None
+
+not > and > or
+
+
+7、对比操作
+>
+<
+==
+>=
+<=
+!=
+
+8、判断，循环
+if True:
+    action
+elif True:
+    action
+else:
+    False ---> action
+
+
+for i in 列表条件：
+    True ---> action
+
+
+while 条件语句:
+    True ---> action
+
+    break    跳出当前循环
+    continue 跳出本次循环
+    pass     占位，其后语句也会执行
+
+
+9、数据结构
+字符串
+列表
+元组
+字典
+
+
+
+
+
+
