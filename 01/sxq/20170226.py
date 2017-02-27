@@ -135,7 +135,3 @@
 # 等腰空心三角
 # 等腰空心三角形套空心三角形
 
-for i in range(1,10):
-    for j in range(1,i+1):
-        print i,"*",j,"=",i*j,
-    print
