@@ -1,0 +1,22 @@
+altb1-web-restapi 1 vm1
+altb1-web-mux 1 vm1
+altb1-web-misc 1 vm1
+altb1-web-httpizza 1 vm1
+altb1-fe-static 1 vm1
+altb1-fe-faas-resource 1 vm1
+altb1-fe-faas-main 1 vm1
+
+infra.nginx altb1-fe-game-proxy vm1 1
+fe.game_api altb1-fe-game-api vm1 1
+fe.game_admin altb1-fe-game-admin vm1 1
+
+
+infra.nginx alta1-fe-game-proxy vm1 1
+fe.game_api alta1-fe-game-api vm1 1
+fe.game_admin alta1-fe-game-admin vm1 1
+
+
+curl -X DELETE localhost:12345/registry/corvus.fe_public_cache:overall.alta1
+curl -X DELETE localhost:12345/registry/dal.fe.auto:overall.altb1
+curl -X DELETE localhost:12345/registry/dal.fe.master:overall.altb1
+
